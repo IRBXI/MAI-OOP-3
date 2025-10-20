@@ -44,7 +44,7 @@ ArrayFigurePointer::operator=(const ArrayFigurePointer& other) {
 ArrayFigurePointer&
 ArrayFigurePointer::operator=(ArrayFigurePointer&& other) noexcept {
     if (this != &other) {
-        ArrayFigurePointer&& temp(std::move(other));
+        ArrayFigurePointer temp(std::move(other));
         swap(*this, temp);
     }
     return *this;
