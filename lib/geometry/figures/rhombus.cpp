@@ -1,4 +1,5 @@
 #include "rhombus.hpp"
+
 #include <cmath>
 
 namespace lib::geometry {

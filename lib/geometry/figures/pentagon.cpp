@@ -1,4 +1,5 @@
 #include "pentagon.hpp"
+
 #include <math.h>
 
 namespace {

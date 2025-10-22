@@ -1,6 +1,7 @@
 #pragma once
 
 #include "figure.hpp"
+
 #include <initializer_list>
 
 namespace lib::array {

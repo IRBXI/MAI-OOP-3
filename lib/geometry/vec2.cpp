@@ -1,4 +1,5 @@
 #include "vec2.hpp"
+
 #include <cmath>
 
 namespace lib::geometry {

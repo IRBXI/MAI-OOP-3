@@ -1,7 +1,9 @@
-#include "trapezoid.hpp"
 #include <cmath>
-#include <gtest/gtest.h>
 #include <sstream>
+
+#include <gtest/gtest.h>
+
+#include "trapezoid.hpp"
 
 class TrapezoidTest : public ::testing::Test {
   protected:

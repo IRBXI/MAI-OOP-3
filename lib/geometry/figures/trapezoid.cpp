@@ -1,4 +1,5 @@
 #include "trapezoid.hpp"
+
 #include <cmath>
 
 namespace lib::geometry {

@@ -1,7 +1,9 @@
-#include "rhombus.hpp"
 #include <cmath>
-#include <gtest/gtest.h>
 #include <sstream>
+
+#include <gtest/gtest.h>
+
+#include "rhombus.hpp"
 
 class RhombusTest : public ::testing::Test {
   protected:

@@ -1,9 +1,11 @@
 #include "array.hpp"
-#include "figure.hpp"
+
 #include <cassert>
 #include <cstring>
 #include <iostream>
 #include <stdexcept>
+
+#include "figure.hpp"
 
 namespace lib::array {
 

@@ -1,7 +1,9 @@
-#include "pentagon.hpp"
 #include <cmath>
-#include <gtest/gtest.h>
 #include <sstream>
+
+#include <gtest/gtest.h>
+
+#include "pentagon.hpp"
 
 class PentagonTest : public ::testing::Test {
   protected:

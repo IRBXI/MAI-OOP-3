@@ -1,12 +1,14 @@
+#include <cmath>
+#include <iostream>
+#include <sstream>
+#include <string>
+
+#include <gtest/gtest.h>
+
 #include "array.hpp"
 #include "pentagon.hpp"
 #include "rhombus.hpp"
 #include "trapezoid.hpp"
-#include <cmath>
-#include <gtest/gtest.h>
-#include <iostream>
-#include <sstream>
-#include <string>
 
 class ArrayFigurePointerTest : public ::testing::Test {
   protected:
